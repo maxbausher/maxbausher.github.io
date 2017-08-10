@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Max Bausher</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+
+
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">Max Bausher</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#about" class="smoothScroll">About &amp; Resume</a>
+			<a href="#portfolio" class="smoothScroll">Portfolio</a>
+			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="#"><i class="icon-facebook"></i></a>
+			<a href="#"><i class="icon-twitter"></i></a>
+			<a href="#"><i class="icon-dribbble"></i></a>
+			<a href="#"><i class="icon-envelope"></i></a>
+		</div>
+
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+
+
+
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+					<div class="row">
+				<h1 class="title">MAX BAUSHER</h1>
+				<br>
+				<h3 class="title">I am a Sydney based junior web developer</h3>
+				<br>
+				<br>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+
+
+	<!-- ========== ABOUT SECTION ========== -->
+	<section id="about" name="about"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>ABOUT ME</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+				<!-- INTRO INFORMATIO-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>Originally from San Francisco, I moved to Sydney in 2016 with my fiance after the last technology company I worked for, <a href="https://newrelic.com/">New Relic</a>, went public in 2015.</p>
+					<p>After six years in the B2B software space, I have been fortunate enough to work alongside countless clients' web and mobile engineering &amp; devops teams. Seeing some of San Francisco's finest startups and mid-sized technology companies develop &amp; ship great products, I soon found my passion for developing software and have made the transition into web development.</p>
+					<p>Having completed <a href="https://generalassemb.ly/education/web-development-immersive">General Assembly's</a> Web Development Immersive course, I continue learning and growing my technical skills with passion-projects &amp; freelance work.</p>
+					<p>I am currently seeking a junior front-end or full-stack development role in Sydney.</p>
+					<p><a href="../theme/assets/resume/MaxBausherCV.pdf" download="MaxBausherCV.pdf"><button type="button" class="btn btn-warning">DOWNLOAD RESUME</button></a></p>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
+
+
+	<!-- ========== CAROUSEL SECTION ========== -->
+	<section id="portfolio" name="portfolio"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<h3>MY PROJECTS</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active centered">
+								<a target="_blank" href=""><img class="img-responsive" src="../theme/assets/img/ButlersPantry.png" alt=""></a>
+                <div>
+                  <h4 class="project">What is it?</h4>
+                  <p>A Product &amp; Experience suggestion engine utilizing the world's largest product database (Amazon) and event database (Eventful) to help search for gift ideas.</p>
+                  <h4 class="project">How did I make it?</h4>
+                  <p>Single Page App utilizing React + Redux and a Rails backend making requests to the Amazon Product Advertising API, Etsy API, and Eventful API. Utilizing middleware to handle response data &amp; HMAC for encryption of Amazon API requests.</p>
+                </div>
+							</div>
+							<div class="item centered">
+								<a target="_blank" href="https://cryptic-sands-83438.herokuapp.com/"><img class="img-responsive" src="../theme/assets/img/Trekr.png" alt=""></a>
+                <div>
+                  <h4 class="project">What is it?</h4>
+                  <p>Online forum for the hiking community to create and share walking tracks as well as share feedback and tips on hikes. Features interactive google maps (satellite &amp; terrain mode) which you can draw tracks onto, as well as save and search hikes by any location. Users can also add tip markers to hikes for advice, and comment on a hike's show page.</p>
+                  <h4 class="project">How did I make it?</h4>
+                  <p>Ruby on Rails with a Postgresql DB. For the interactive maps, we used a combination of Google Maps API, Leaflet, and ScribbleMaps API for interactive drawing layer.</p>
+                </div>
+							</div>
+							<div class="item centered">
+								<a target="_blank" href="https://maxbausher.github.io/tictactoe/"><img class="img-responsive" src="../theme/assets/img/Guardians.png" alt=""></a>
+                <div>
+                  <h4 class="project">What is it?</h4>
+                  <p>Fun project to create a Guadarian of the Galaxy-themed Tic Tac Toe game. The goal is to get all 6 Infinity Stones and have your movie-character avatar become a Guardian of the Galaxy!</p>
+                  <h4 class="project">How did I make it?</h4>
+                  <p>Using vanilla Javascript and CSS, and a bit of photoshop and image assets to bring the dream to life. </p>
+                </div>
+							</div>
+						</div>
+						<br>
+						<br>
+						<ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+					</div>
+				</div><!-- col-lg-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>	<!-- f -->
+
+	<!-- ========== CONTACT SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>CONTACT ME</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>Manly<br/>Australia<br/>+61 (0)407 894 416</p>
+					<p>maxbausher@gmail.com</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
