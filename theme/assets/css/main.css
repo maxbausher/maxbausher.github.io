@@ -288,6 +288,10 @@ hr {
   color: white;
 }
 
+.click {
+  color: #f85c37;
+}
+
 #menuToggle {
   position: absolute;
   top: 20px;
