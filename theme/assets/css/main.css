@@ -126,6 +126,10 @@ hr {
 
 /* Footer Wrap */
 
+#icon i {
+  font-size: 20px !important;
+}
+
 #f {
   background: #1a1a1a;
   padding-top: 70px;
