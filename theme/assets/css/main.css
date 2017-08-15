@@ -126,10 +126,6 @@ hr {
 
 /* Footer Wrap */
 
-#icon i {
-  font-size: 20px !important;
-}
-
 #f {
   background: #1a1a1a;
   padding-top: 70px;
@@ -159,6 +155,15 @@ hr {
   text-align: center;
 }
 
+#t {
+  background: #1a1a1a;
+}
+
+#icon {
+  font-size: 100px;
+  padding: 10px;
+  margin-left: 10%;
+}
 /* MENU CONF*/
 
 .menu {
